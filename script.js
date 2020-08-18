@@ -51,7 +51,7 @@ function getResults(querySong){
                 <pre class="lyric text-white">${lyrics}</pre>
             </div>
             `
-            document.querySelector('.single-lyrics').innerHTML += lyricsHtml;
+            document.querySelector('.single-lyrics').innerHTML = lyricsHtml;
            
         });
    }
